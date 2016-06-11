@@ -2,7 +2,7 @@
 
     <div class="container">
 <div class="titulo-anunciados-imoveis">
-        	Imoveis Recem Adicionados TESTE GIT
+        	Imoveis Recem Adicionados
         </div><!--fim-titulo-anunciados-imoveis-->
         	<hr align="center" size="70" id="hr-add-imovel"/>
        <div class="segura-imoveis-adicionados">
