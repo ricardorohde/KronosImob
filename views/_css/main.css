@@ -1,0 +1,326 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    font: 14pt Verdana sans-serif;
+}
+
+body, html{
+    height: 100%;
+}
+
+.all{
+    min-height: 100%;
+    position: relative;
+}
+
+/*h1, h2, h3, h4, h5, h6, p{
+
+}*/
+
+.content{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.btn{
+    background-color: #ff9200;
+    margin-top: 20px;
+    font-family: impact;
+    margin-left: 29px;
+    float: right;
+}
+
+
+.btn:focus, .btn:active{
+    border: none;
+    border-color: transparent;
+}
+
+.btn:focus{
+    border: 0;
+}
+
+.btn#btn-login{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.dropdown-menu{
+    padding: 0;
+}
+
+
+
+.glyphicon{
+    background: transparent;
+}
+
+header.main-header{
+    height: 460px;
+    width: 100%;
+    background: url(http://kronosimob.esy.es/files/site/banner-home.jpg);
+    border-bottom: 5px solid #ff9300;
+}
+
+label#lblLogin{
+    color: #f4f4f4;
+}
+
+.navbar{
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ff9200
+}
+
+.navbar .navbar-toggle .icon-bar {
+    border-color: #ff9200;
+    background-color: #ff9200;
+}
+
+.navbar-top{
+    padding: 50px;
+    width: 90%;
+    margin: auto;
+    background-color: #212121;
+}
+
+.navbar-brand{
+    margin-left: 30px;
+    color: #ff9200;
+    font-size: 40px;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.navbar-nav li{
+    display: inline;
+}
+
+.navbar-nav li a{
+    display: inline-block;
+    height: 50px;
+    padding: 15px 20px 0px 20px;
+    text-decoration: none;
+    color: #ff9200;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus{
+    background-color: #e4e4e4;
+}
+
+.navbar-nav .ulDD li{
+    display: list-item;
+    background-color: #ffffff;
+}
+
+.navbar-nav li .divider{
+    background-color: #b3acb4;
+    margin: 0;
+}
+
+.navbar-nav li .group-title{
+    color: #ff9200;
+    padding: 7px 7px 7px 7px;
+}
+
+.navbar-nav .ulDD li a{
+    display: inline-block;
+    height: 50px;
+    padding: 15px 20px 0px 20px;
+    text-decoration: none;
+    width: 100%;
+    color: #ff9200;
+}
+
+.navbar-nav .ulDD li a:hover,
+.navbar-nav .ulDD li a:focus{
+    background-color: #e4e4e4;
+}
+
+.header-content{
+    padding-top: 50px;
+}
+
+.footer{
+    background-color: #f4f4f4;
+    border-top: 3px solid #ff9200;
+    padding-top: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.thumbnail{
+    height: 400px;
+}
+
+#caixa-busca-imovel {
+    height: 50PX;
+    width: 250px;
+}
+
+#imovel-alugar {
+    width: 81px;
+    height: 50px;
+}
+#imovel-comprar {
+    width: 81px;
+    height: 50px;
+}
+#busca-imovel {
+    WIDTH: 568PX;
+    height: 121px;
+    margin-left: 310px;
+    margin-top: 125px;
+}
+
+  
+  #imovel-buscar {width: 81px;
+    height: 50px;}
+	
+	
+	.segura-imoveis-adicionados{
+    width: 800px;
+    background: #ECECEC;
+    height: 160px;
+    margin-left: 170px;
+}
+	
+	.box-imoveis-add {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 9px;
+    margin-top: 6px;
+}
+
+.titulo-anunciados-imoveis {
+    font-size: 24px;
+    text-align: center;
+}
+
+.imagem-anuncio-add {
+    width: 133px;
+    height: 110px;
+}
+.preco-anuncio-add {
+    text-align: center;
+    color: #FF9300;
+    font-size: 21px;
+}
+.texto-banner-padrao {
+    color: white;
+    font-size: 17px;
+    width: 190px;
+    position: relative;
+    top: 39px;
+}
+.texto-banner-padrao-1 {
+    color: white;
+    font-size: 17px;
+    width: 72px;
+    position: relative;
+    left: 263px;
+}
+
+.titulo-de-criacao {font-size: 50px;font-family: impact;margin-left: 357px;}
+#hr-criacao-imovel {
+ color: #C60 !important;
+	}
+	
+.criacao-anuncio-titulo {
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #333333;
+}	
+
+.box-titulo-imovel {
+    width: 650px;
+    height: 130px;
+    text-align: center;
+    padding-top: 48px;
+    float: left;
+    box-shadow: 0 2px 6px #333333;
+}
+
+.box-titulo-imovel:hover {box-shadow: 0 2px 9px #333333;  -webkit-transition: all 150ms ease;
+ -moz-transition: all 150ms ease;
+ -ms-transition: all 150ms ease;
+ -o-transition: all 150ms ease;
+ transition: all 150ms ease;}
+
+.layout-titulo {font-family: impact;font-size: 26px;}
+
+.box-img-imovel {
+    width: 650px;
+    float: left;
+    margin-top: 80px;
+    padding: 11px;
+
+    box-shadow: 0 2px 6px #333333;
+}
+
+.box-img-imovel:hover {box-shadow: 0 2px 9px #333333;  -webkit-transition: all 150ms ease;
+ -moz-transition: all 150ms ease;
+ -ms-transition: all 150ms ease;
+ -o-transition: all 150ms ease;
+ transition: all 150ms ease;}
+.layout-img {}
+
+
+.box-preco-imovel {
+    float: right;
+    width: 210px;
+    height: 130px;
+    margin-top: -133px;
+    box-shadow: 0 2px 6px #333333;
+    margin-right: 115px;
+}
+.box-preco-imovel:hover {
+ box-shadow: 0 2px 9px #333333;
+ -webkit-transition: all 150ms ease;
+ -moz-transition: all 150ms ease;
+ -ms-transition: all 150ms ease;
+ -o-transition: all 150ms ease;
+ transition: all 150ms ease;
+ }
+.layout-preco {}
+
+
+.box-descricao-imovel {
+    width: 440px;
+    float: right;
+    height: 341px;
+    margin-top: 79px;
+    text-align: justify;
+    padding: 18px;
+    box-shadow: 0 2px 6px #333333;
+}
+.box-descricao-imovel:hover {box-shadow: 0 2px 9px #333333;  -webkit-transition: all 150ms ease;
+ -moz-transition: all 150ms ease;
+ -ms-transition: all 150ms ease;
+ -o-transition: all 150ms ease;
+ transition: all 150ms ease;}
+.layout-descricao {font-family: sans-serif;}
+
+.box-especificacao-imovel {
+    width: 650px;
+    height: 93px;
+    float: left;
+    box-shadow: 0 2px 6px #333333;
+    margin-top: 50px;
+}
+.box-especificacao-imovel:hover {
+    box-shadow: 0 2px 9px #333333;
+    -webkit-transition: all 150ms ease;
+    -moz-transition: all 150ms ease;
+    -ms-transition: all 150ms ease;
+    -o-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+.layout-especificacao-1 {}
+.layout-especificacao-2 {}
+.layout-especificacao-3 {}
+.layout-especificacao-4 {}
